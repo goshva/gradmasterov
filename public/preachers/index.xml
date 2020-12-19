@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Preachers on Град Мастеров</title>
+    <link>https://grad-masterov.ru/preachers/</link>
+    <description>Recent content in Preachers on Град Мастеров</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-ru</language>
+    <lastBuildDate>Fri, 11 May 2018 09:06:46 +1000</lastBuildDate><atom:link href="https://grad-masterov.ru/preachers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Martin Luther</title>
+      <link>https://grad-masterov.ru/preachers/martin-luther/</link>
+      <pubDate>Fri, 11 May 2018 09:06:46 +1000</pubDate>
+      
+      <guid>https://grad-masterov.ru/preachers/martin-luther/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>John Calvin</title>
+      <link>https://grad-masterov.ru/preachers/john-calvin/</link>
+      <pubDate>Thu, 03 May 2018 20:12:30 +1000</pubDate>
+      
+      <guid>https://grad-masterov.ru/preachers/john-calvin/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
