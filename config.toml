@@ -1,0 +1,160 @@
+baseURL = "https://grad-masterov.ru/"
+languageCode = "ru-ru"
+title = "Град Мастеров"
+theme = "alpha-church"
+#ignoreErrors = ["error-remote-getjson"]
+
+
+#themesDir = "../.."
+
+rssLimit = 5
+paginate = 4
+
+enableEmoji = true
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+enableInlineShortcodes = true
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[taxonomies]
+  tag = "tags"
+  preacher = "preachers"
+  series = "series"
+
+#This theme can generate a multi-level menu.
+#Use weight= to specify the order of menu items, and parent= to create a submenu item.
+[menu]
+  [[menu.main]]
+    name = "Главная"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "О проекте"
+    url = "/about"
+    weight = 2
+
+  [[menu.main]]
+    name = "О нас"
+    parent = "О проекте"
+    url = "/about"
+    weight = 1
+
+  [[menu.main]]
+    name = "Лидеры"
+    parent = "О проекте"
+    url = "/leaders"
+    weight = 2
+
+  [[menu.main]]
+    name = "Партнеры"
+    parent = "О проекте"
+    url = "/partners"
+    weight = 2
+
+  [[menu.main]]
+    name = "Блог"
+    url = "/posts"
+    weight = 3
+
+  [[menu.main]]
+    name = "Контакты"
+    url = "/contact"
+    weight = 4
+
+# Paramaters for the whole site
+[params]
+  title = "Град Мастеров"
+  subtitle = "Another Church Theme"
+  author = "Daniel Saunders"
+  keywords = ["theme", "hugo", "podcast"]
+  languageCode = "ru" # For accessibility this needs to be set. You can find all language codes at https://www.w3schools.com/tags/ref_language_codes.asp
+  readmore = "Читать дальше"
+
+  bible_popups = "faithlife" #faithlife, blb
+  bible_version = "CSB" #HCSB, NIV, NLT, ESV, etc.
+  instant_page = true
+
+  customCSS = ["/css/mycss.css"]
+  DateForm = "1-1-2006"
+
+  [params.banner]
+    image = "img/banner.jpg"
+
+#  [params.style]
+#    googleFonts = ["Cardo", "Crimson+Text", "Merriweather", "Playfair+Display:400,700", "Roboto+Slab"]
+
+  [params.podcast]
+    title = "Listen to Alpha Church"
+    subtitle = ""
+    summary = "Alpha-Church sermons, talks, messages—podcasted."
+    email = "test@example.com"
+    copyright = "Podcast: [CC0 (public domain)](//creativecommons.org/publicdomain/zero/1.0/)"
+    image = "img/podcast-cover.jpg"
+    category = "Religion & Spirituality"
+    sub_category = "Christianity"
+    iTunes = "https://itunes.apple.com/us/podcast/tgc-word-of-the-week/id1034013280"
+    feed = "https://www.thegospelcoalition.org/podcasts/word-of-the-week/feed/?feed=podcast"
+
+  [params.map]
+    service = "osm" #"osm" for OpenStreetMaps, "google" for Google Maps, or "mapbox" for Mapbox, see SETUP.md
+    # For Open Street Map widgets
+    latitude = "48.8530"
+    longitude = "2.3498"
+    zoom = "18"
+    # If you want to use google maps you'll need an API Key from Google https://developers.google.com/maps/documentation/embed/get-api-key
+    #service = "google"
+DateForm = "30.12.2006"
+    #api_key = "XXXXXXXX"
+    #language = "fr" #Optional
+    #region = "FR" #Optional
+
+  [params.contact]
+    #Use this section to automate contact form.
+    #Set service to either "netlify", "formspree" or "php"
+    #For formspree, please setup an account at https://formspree.io/
+    #For netlify, please read https://www.netlify.com/docs/form-handling/
+    #
+    #If you use netlify, you'll need to set the confirm_page value (or else users will see a generic netlify response)
+    #If you use formspree, you'll need to set your formspree email address.
+    #
+    #If you use php, you need to host this site on a Server capable of running php.
+    # Please edit the /static/contact_mail.php file from the exampleSite.
+    service = "netlify"
+    confirm_page = "/contact_thanks"
+    # formspree_email=""
+
+
+    [params.footer]
+      copyright = ["[CC0 (public domain)](//creativecommons.org/publicdomain/zero/1.0/)",
+                   "Design: [HTML5 UP](//html5up.net/alpha)",
+                   "[Hugo Port](//gohugo.io) by [Daniel Saunders](//github.com/funkydan2)"
+                  ]
+
+    [[params.links]]
+      service = "Twitter"
+      icon = "fa-twitter"
+      icon_pack = "fab"
+      link = "//twitter.com/"
+
+    [[params.links]]
+      service = "Facebook"
+      icon = "fa-facebook"
+      icon_pack = "fab"
+      link = "//facebook.com/"
+
+    [[params.links]]
+      service = "Podcast"
+      icon = "fa-podcast"
+      icon_pack = "fas"
+      link = "/sermons/index.xml"
+
+    [[params.links]]
+      service = "Full RSS Feed"
+      icon = "fa-rss"
+      icon_pack = "fas"
+      link = "/index.xml"
