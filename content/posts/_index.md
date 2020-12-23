@@ -73,8 +73,8 @@
   
 
 [CTA]
-  heading = "Get in touch!"
-  message = "We'd love to hear from you."
+  heading = "Обратная связь"
+  message = "Мы ответим каждому!"
 
 [author]
     image = "img/alla1.jpg"

@@ -210,7 +210,7 @@ You can have a contact form using either a [netlify form](https://www.netlify.co
 
 With these setting, set _service_ to either `service = "netlify"` or `service = "formspree"`.
 
-If you're using formspree, you'll also need to set `formspree_email` to your email address.
+If you're using formspree, you'll also need to set `formspree_email` to your @ почта.
 
 If you're using netlify, you'll also want to set the `confirm_page = "url"` to a page on your site. That way after a user submits the form they'll be sent to a page with your customised thank you message, rather than a generic netlify page.
 

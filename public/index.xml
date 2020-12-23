@@ -6,7 +6,18 @@
     <description>Recent content on Град Мастеров</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
-    <lastBuildDate>Thu, 14 Nov 2019 08:08:17 -0500</lastBuildDate><atom:link href="https://grad-masterov.ru/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 May 2020 21:08:01 +1000</lastBuildDate><atom:link href="https://grad-masterov.ru/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Моя личная страница</title>
+      <link>https://grad-masterov.ru/goshva13/</link>
+      <pubDate>Sun, 03 May 2020 21:08:01 +1000</pubDate>
+      
+      <guid>https://grad-masterov.ru/goshva13/</guid>
+      <description>Обо мне Просим сказать Привет!
+На этой странице поделитесь вашей философией, познакомтесь с вашим покупателем.
+Запрограммируйте успех  написав этот текст</description>
+    </item>
+    
     <item>
       <title>Ярмарки на КМВ</title>
       <link>https://grad-masterov.ru/posts/photo19/</link>
@@ -42,17 +53,6 @@
       
       <guid>https://grad-masterov.ru/sermons/table-talk-word-of-god-i/</guid>
       <description>Recording by Gillian Hedrie from Librivox</description>
-    </item>
-    
-    <item>
-      <title>Hello World!</title>
-      <link>https://grad-masterov.ru/posts/hello-world/</link>
-      <pubDate>Thu, 03 May 2018 21:08:01 +1000</pubDate>
-      
-      <guid>https://grad-masterov.ru/posts/hello-world/</guid>
-      <description>Just saying hi!
-Skins Skins are the files responsible for the look and feel of your site. It’s the CSS that controls colors and fonts, it’s the Javascript that determines actions and reactions. It’s also the rules that Hugo uses to transform your content into the HTML that the site will serve to visitors.
-You have two ways to create a skin. The simplest way is to create it in the layouts/ directory.</description>
     </item>
     
   </channel>

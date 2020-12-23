@@ -31,7 +31,7 @@
 						{{ $len := (len $tiles) }}
 						<a name="feature-icons"></a>
 						<section class="box special features">
-							<div class="features-row">
+						<div class="features-row" style="display:none">
 								{{ range $index, $key := $tiles}}
 									<section>
 										{{ if $key.url }}<a href="{{ $key.url | absURL }}"><div>{{ end }}
@@ -42,13 +42,13 @@
 									</section>
 									{{ if and (mod $index 2) (lt (add $index 1) $len) }}
 											</div>
-											<div class="features-row">
+											<div class="features-row" style="display:none">
 									{{ end }}
 								{{ end }}
 							</div>
 						</section>
 					{{ end }}
-
+					
 					{{ if .Params.Feature_images.enable }}
 						{{ $tiles := .Params.Feature_images.tile }}
 						{{ $len := (len $tiles) }}
@@ -56,7 +56,7 @@
 						<div class="row">
 							{{ range $index, $key := $tiles }}
 								<div class="col-6 col-12-narrower">
-									<section class="box special">
+									<section class="box special" style="display:none">
 										<span class="image featured"><img src="{{ $key.image | absURL}}" alt="" /></span>
 										<h3>{{ $key.title }}</h3>
 										<p>{{ $key.text | markdownify }}</p>
