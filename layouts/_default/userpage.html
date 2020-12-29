@@ -7,7 +7,8 @@
 					</header>
 					<div class="box">
 						{{ with .Params.images }}
-							<span class="image featured"><img  id="json.graphql.user.profile_pic_url_hd" src="" alt=""></span>
+							<span>
+								<img id="json.graphql.user.profile_pic_url_hd" class="instaAva image featured" src="" alt="моя фотка из инсты"></span>
 						{{ end }}
 						{{ .Content }}
 						{{ if or .Params.tags .Params.date }}
