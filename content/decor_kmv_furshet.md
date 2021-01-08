@@ -1,13 +1,13 @@
 ---
-title: "Моя личная страница"
-subtitle: "Я в проекте Град мастеров"
-date: 2020-05-03T21:08:01+10:00
-images: ["img/freely-26905.jpg"]
-tags: ["testing"]
-#instagram_acc: kellerkarina777
-instagram_acc: goshva13
+title: "decor_kmv_furshet"
+subtitle: "Моя личная страница в проекте Град мастеров"
+date: 2021-01-08T11:37:38+03:00
+images: ["img/decor_kmv_furshet.jpg"]
+tags: ["мастера"]
+instagram_acc: decor_kmv_furshet
 type: "users"
 layout: "userpage"
+author: decor_kmv_furshet
 ---
 
 ### Обо мне
