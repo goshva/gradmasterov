@@ -1,8 +1,19 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-subtitle: ""
+title: "{{ .Name }}"
+subtitle: "Моя личная страница в проекте Град мастеров"
 date: {{ .Date }}
-images: [""]
-tags: []
-draft: true
+images: ["img/{{ .Name }}.jpg"]
+tags: ["мастера"]
+instagram_acc: {{ .Name }}
+type: "users"
+layout: "userpage"
+author: {{ .Name }}
 ---
+
+### Обо мне
+Просим сказать  *Привет*!
+
+На этой странице поделитесь вашей философией, познакомтесь с вашим покупателем.
+
+```Запрограммируйте успех ```
+```написав этот текст```
