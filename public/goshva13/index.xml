@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>testing on Град Мастеров</title>
-    <link>https://grad-masterov.ru/tags/testing/</link>
-    <description>Recent content in testing on Град Мастеров</description>
+    <title>Моя личная страница on Град Мастеров</title>
+    <link>https://grad-masterov.ru/goshva13/</link>
+    <description>Recent content in Моя личная страница on Град Мастеров</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
-    <lastBuildDate>Mon, 03 Aug 2020 21:08:01 +1000</lastBuildDate><atom:link href="https://grad-masterov.ru/tags/testing/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 May 2020 21:08:01 +1000</lastBuildDate><atom:link href="https://grad-masterov.ru/goshva13/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Моя личная страница</title>
       <link>https://grad-masterov.ru/goshva13/middle/</link>
@@ -14,17 +14,6 @@
       
       <guid>https://grad-masterov.ru/goshva13/middle/</guid>
       <description>middle Просим сказать Привет!
-На этой странице поделитесь вашей философией, познакомтесь с вашим покупателем.
-Запрограммируйте успех  написав этот текст</description>
-    </item>
-    
-    <item>
-      <title>Моя личная страница</title>
-      <link>https://grad-masterov.ru/goshva13/</link>
-      <pubDate>Sun, 03 May 2020 21:08:01 +1000</pubDate>
-      
-      <guid>https://grad-masterov.ru/goshva13/</guid>
-      <description>Обо мне Просим сказать Привет!
 На этой странице поделитесь вашей философией, познакомтесь с вашим покупателем.
 Запрограммируйте успех  написав этот текст</description>
     </item>
@@ -49,17 +38,6 @@
       <description>top sell Просим сказать Привет!
 На этой странице поделитесь вашей философией, познакомтесь с вашим покупателем.
 Запрограммируйте успех  написав этот текст</description>
-    </item>
-    
-    <item>
-      <title>Hello World!</title>
-      <link>https://grad-masterov.ru/posts/hello-world/</link>
-      <pubDate>Thu, 03 May 2018 21:08:01 +1000</pubDate>
-      
-      <guid>https://grad-masterov.ru/posts/hello-world/</guid>
-      <description>Just saying hi!
-Skins Skins are the files responsible for the look and feel of your site. It’s the CSS that controls colors and fonts, it’s the Javascript that determines actions and reactions. It’s also the rules that Hugo uses to transform your content into the HTML that the site will serve to visitors.
-You have two ways to create a skin. The simplest way is to create it in the layouts/ directory.</description>
     </item>
     
   </channel>

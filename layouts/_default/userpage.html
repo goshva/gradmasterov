@@ -29,31 +29,4 @@
 						{{ end }} {{/* if meta */}}
 					</div>
 				</section>
-				<script>
-				let username = "{{ .Params.instagram_acc }}"
-				let userurl = "temp1"
-				function injector (id,text){
-					document.getElementById(id).innerText = text
-				}
-				async function test(data) {
-					var url = "https://www.instagram.com/"+username+"/?__a=1";
-					var url = "https://www.instagram.com/goshva13/?__a=1"
-					let response = await fetch(url);
-                    if (response.ok) { 
-					let json = await response.json();
-
-console.log(json)
-					  console.log(json.graphql.user.biography)
-					  injector("json.graphql.user.biography", json.graphql.user.biography)
-					  injector("json.graphql.user.full_name", json.graphql.user.full_name)
-					  
-					  document.getElementById("json.graphql.user.profile_pic_url_hd").src = json.graphql.user.profile_pic_url_hd
-
-					  
-                    } else {
-                    alert("Ошибка HTTP: " + response.status);
-					}
-				}
-				test();
-				</script>
 {{ end }}

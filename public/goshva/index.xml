@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Град Мастеров</title>
-    <link>https://grad-masterov.ru/</link>
-    <description>Recent content on Град Мастеров</description>
+    <title>Моя личная страница on Град Мастеров</title>
+    <link>https://grad-masterov.ru/goshva/</link>
+    <description>Recent content in Моя личная страница on Град Мастеров</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
-    <lastBuildDate>Mon, 03 Aug 2020 21:08:01 +1000</lastBuildDate><atom:link href="https://grad-masterov.ru/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 May 2020 21:08:01 +1000</lastBuildDate><atom:link href="https://grad-masterov.ru/goshva/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Моя личная страница</title>
-      <link>https://grad-masterov.ru/goshva13/middle/</link>
+      <link>https://grad-masterov.ru/goshva/middle/</link>
       <pubDate>Mon, 03 Aug 2020 21:08:01 +1000</pubDate>
       
-      <guid>https://grad-masterov.ru/goshva13/middle/</guid>
+      <guid>https://grad-masterov.ru/goshva/middle/</guid>
       <description>middle Просим сказать Привет!
 На этой странице поделитесь вашей философией, познакомтесь с вашим покупателем.
 Запрограммируйте успех  написав этот текст</description>
@@ -20,10 +20,10 @@
     
     <item>
       <title>Моя личная страница</title>
-      <link>https://grad-masterov.ru/goshva13/last/</link>
+      <link>https://grad-masterov.ru/goshva/last/</link>
       <pubDate>Sun, 03 May 2020 21:08:01 +1000</pubDate>
       
-      <guid>https://grad-masterov.ru/goshva13/last/</guid>
+      <guid>https://grad-masterov.ru/goshva/last/</guid>
       <description>only for vip Просим сказать Привет!
 На этой странице поделитесь вашей философией, познакомтесь с вашим покупателем.
 Запрограммируйте успех  написав этот текст</description>
@@ -31,32 +31,13 @@
     
     <item>
       <title>Моя личная страница</title>
-      <link>https://grad-masterov.ru/goshva13/top/</link>
+      <link>https://grad-masterov.ru/goshva/top/</link>
       <pubDate>Sun, 03 May 2020 21:08:01 +1000</pubDate>
       
-      <guid>https://grad-masterov.ru/goshva13/top/</guid>
+      <guid>https://grad-masterov.ru/goshva/top/</guid>
       <description>top sell Просим сказать Привет!
 На этой странице поделитесь вашей философией, познакомтесь с вашим покупателем.
 Запрограммируйте успех  написав этот текст</description>
-    </item>
-    
-    <item>
-      <title>Ярмарки на КМВ</title>
-      <link>https://grad-masterov.ru/posts/photo19/</link>
-      <pubDate>Thu, 14 Nov 2019 08:08:17 -0500</pubDate>
-      
-      <guid>https://grad-masterov.ru/posts/photo19/</guid>
-      <description> Сплоченая команда - залог успеха
-  </description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>https://grad-masterov.ru/contact/</link>
-      <pubDate>Sat, 12 May 2018 13:49:50 +1000</pubDate>
-      
-      <guid>https://grad-masterov.ru/contact/</guid>
-      <description></description>
     </item>
     
   </channel>
