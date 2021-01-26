@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="description" content="Another Church Theme">
 		
-		<meta name="keywords" content="testing" /><meta name="generator" content="Hugo 0.78.2" />
+		<meta name="keywords" content="testing" /><meta name="generator" content="Hugo 0.79.0" />
 		
 			<meta name="apple-itunes-app" content="app-id=1034013280" />
 		
@@ -98,16 +98,15 @@
 
 
 
+
 			<!-- Main -->
 				<section id="main" class="container">
 					<header>
-						<h2 id="json.graphql.user.full_name">Моя личная страница</h2>
-						<p id="json.graphql.user.biography"></p>
+						<h2>Моя личная страница</h2>
 					</header>
 					<div class="box">
 						
-							<span>
-								<img id="json.graphql.user.profile_pic_url_hd" class="instaAva image featured" src="" alt="моя фотка из инсты"></span>
+							<span class="image featured"><img src="https://grad-masterov.ru/img/freely-26905.jpg" alt=""></span>
 						
 						<h3 id="middle">middle</h3>
 <p>Просим сказать  <em>Привет</em>!</p>
@@ -119,7 +118,7 @@
 							<hr />
 							<div id="meta">
 							
-								<p>Тэги:
+								<p>Теги:
 									
 										
 										
@@ -133,27 +132,6 @@
 						 
 					</div>
 				</section>
-				<script>
-				let username = "goshva13"
-				let userurl = "temp1"
-				function injector (id,text){
-					document.getElementById(id).innerText = text
-				}
-				async function init(data) {
-					var url = "https://www.instagram.com/"+username+"/?__a=1";
-					let response = await fetch(url);
-                    if (response.ok) { 
-					let json = await response.json();
-					  injector("json.graphql.user.biography", json.graphql.user.biography)
-					  injector("json.graphql.user.full_name", json.graphql.user.full_name)
-					  document.getElementById("json.graphql.user.profile_pic_url_hd").src = json.graphql.user.profile_pic_url_hd
-                    } else {
-                    alert("Ошибка HTTP: " + response.status);
-					}
-				}
-				init();
-				</script>
-
 
 
 <!-- Footer -->
@@ -199,7 +177,7 @@
 
 
 <!-- Scripts-HTML5up -->
-<script src="/js/jquery.min.412b8ff9c5ab32b9019fcd84bcd4a54c0e265a14528474f4ee45b27a20abeaeb.js" integrity="sha256-QSuP&#43;cWrMrkBn82EvNSlTA4mWhRShHT07kWyeiCr6us=" crossorigin="anonymous"></script>
+<script src="/js/jquery.min.0925e8ad7bd971391a8b1e98be8e87a6971919eb5b60c196485941c3c1df089a.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="/js/jquery.dropotron.min.4b0a4c1a278f32f74c140865e40671b5225fcb317ccde6a7ac568b7c1c1acbe0.js" integrity="sha256-SwpMGiePMvdMFAhl5AZxtSJfyzF8zeanrFaLfBway&#43;A=" crossorigin="anonymous"></script>
 <script src="/js/jquery.scrollex.min.fc25b75fb3fc8b42756413be387e0d7a602813125283d2384551961d73ea784e.js" integrity="sha256-/CW3X7P8i0J1ZBO&#43;OH4NemAoExJSg9I4RVGWHXPqeE4=" crossorigin="anonymous"></script>
 <script src="/js/browser.min.87910d5ed0053d90caf83230a2f1811d8679815da01f7bdec7548e776d7f04c4.js" integrity="sha256-h5ENXtAFPZDK&#43;DIwovGBHYZ5gV2gH3vex1SOd21/BMQ=" crossorigin="anonymous"></script>

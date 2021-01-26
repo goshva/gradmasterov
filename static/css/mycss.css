@@ -22,5 +22,9 @@ img {width: 100%;}
     background-color: #001b87;
     margin: 0;
 }
+.btn-lg {font-size: calc(1em + 0.8vw);}
+.btn-empty {background:none; color: #000; border: 1px solid green;
+}
 
+}
 

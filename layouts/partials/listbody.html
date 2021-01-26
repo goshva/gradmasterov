@@ -25,6 +25,16 @@
               <img src="{{ index .Params.images 0 | absURL }}"></img>
             </a/>
           </span>
+          <span class="image fit">
+            <a href="{{ .Permalink }}" class="button btn-lg btn-empty">
+              {{ .Params.price }} руб.
+            </a/> 
+            <a href="{{ .Permalink }}" class="button btn-lg">
+              Купить
+            </a/> 
+
+          </span>
+
         </div>
     </div>
     {{ else }}
