@@ -7,7 +7,7 @@ tags: ["testing"]
 #instagram_acc: kellerkarina777
 instagram_acc: goshva13
 #type: "users"
-#layout: "user"
+layout: "userpage"
 ---
 
 ### Обо мне

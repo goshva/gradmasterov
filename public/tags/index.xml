@@ -6,21 +6,13 @@
     <description>Recent content in Tags on Град Мастеров</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
-<<<<<<< HEAD
     <lastBuildDate>Mon, 03 Aug 2020 21:08:01 +1000</lastBuildDate><atom:link href="https://grad-masterov.ru/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>testing</title>
       <link>https://grad-masterov.ru/tags/testing/</link>
       <pubDate>Mon, 03 Aug 2020 21:08:01 +1000</pubDate>
-=======
-    <lastBuildDate>Fri, 08 Jan 2021 11:37:38 +0300</lastBuildDate><atom:link href="https://grad-masterov.ru/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>мастера</title>
-      <link>https://grad-masterov.ru/tags/%D0%BC%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%B0/</link>
-      <pubDate>Fri, 08 Jan 2021 11:37:38 +0300</pubDate>
->>>>>>> 4955681aeaacc1e208e54ffb4a0a6acc0de7703c
       
-      <guid>https://grad-masterov.ru/tags/%D0%BC%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%B0/</guid>
+      <guid>https://grad-masterov.ru/tags/testing/</guid>
       <description></description>
     </item>
     
@@ -52,11 +44,11 @@
     </item>
     
     <item>
-      <title>testing</title>
-      <link>https://grad-masterov.ru/tags/testing/</link>
-      <pubDate>Thu, 03 May 2018 21:08:01 +1000</pubDate>
+      <title>redemption</title>
+      <link>https://grad-masterov.ru/tags/redemption/</link>
+      <pubDate>Thu, 03 May 2018 20:12:30 +1000</pubDate>
       
-      <guid>https://grad-masterov.ru/tags/testing/</guid>
+      <guid>https://grad-masterov.ru/tags/redemption/</guid>
       <description></description>
     </item>
     
